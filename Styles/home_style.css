@@ -1,15 +1,21 @@
+h1{
+    text-shadow: 2px 2px #b4b3b3;
+}
 body{
     background-color: #003d50;
     font-family: "Brush Script MT";
 }
 div{
     background-color: #ffffff;
-    text-shadow: 2px 2px #b4b3b3;
+}
+p{
+    font-size: 20px;
 }
 #content {
     text-align: center;
 }
 img {
+    float: center;
     max-width:100%;
     height:auto;
     border: 5px solid #003d50;
@@ -17,4 +23,7 @@ img {
   }
   hr{
       color: #003d50;
+  }
+  footer{
+      text-align: right;
   }
