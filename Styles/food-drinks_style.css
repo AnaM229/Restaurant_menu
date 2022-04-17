@@ -2,16 +2,23 @@ body{
     background-color: white;
     font-family: "Brush Script MT";
     color: white;
-    text-shadow: 2px 2px #000000;
+    /*text-shadow: 2px 2px #000000;*/
 }
 div{
     background-color: #003d50;
 }
 
-.column {
-    float: left;
-    width: 33.33%;
-  }
+p{
+background-color: lightgrey;
+  width: auto;
+  padding: auto;
+  color:black;
+}
+
+.column{
+  float:left;
+  width:33.33%;
+}
   
   /* Clear floats after the columns */
   .row:after {
@@ -76,3 +83,23 @@ img {
     text-align: center;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #003d50;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #365b67;
+}
